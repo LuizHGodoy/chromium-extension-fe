@@ -3,7 +3,7 @@
 	"name": "Lembretes e Notas Rápidas",
 	"version": "1.0",
 	"description": "Extensão para criar notas e lembretes rápidos.",
-	"permissions": ["storage", "notifications"],
+	"permissions": ["storage", "notifications", "alarms"],
 	"background": {
 		"service_worker": "background.js"
 	},

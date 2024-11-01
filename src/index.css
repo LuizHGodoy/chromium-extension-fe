@@ -1,13 +1,41 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+		"Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-color: #f4f4f4; /* Cor de fundo mais clara */
+	color: #333; /* Cor do texto */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1,
+h2 {
+	color: #2c3e50; /* Cor dos títulos */
+}
+
+form {
+	margin-bottom: 20px; /* Espaçamento entre os formulários */
+}
+
+input[type="text"],
+input[type="datetime-local"] {
+	width: 100%; /* Largura total */
+	padding: 10px; /* Espaçamento interno */
+	margin: 5px 0; /* Margem entre os campos */
+	border: 1px solid #ccc; /* Borda */
+	border-radius: 4px; /* Bordas arredondadas */
+}
+
+button {
+	background-color: #3498db; /* Cor do botão */
+	color: white; /* Cor do texto do botão */
+	padding: 10px; /* Espaçamento interno */
+	border: none; /* Sem borda */
+	border-radius: 4px; /* Bordas arredondadas */
+	cursor: pointer; /* Cursor de mão */
+}
+
+button:hover {
+	background-color: #2980b9; /* Cor do botão ao passar o mouse */
 }
